@@ -128,6 +128,92 @@ Inline Element
   
 
 
+CSS (Cascadding Style Sheet)
+==========================>
+
+What is Css 
+------------------>    > With the help of css we can provide the beauty of HTML element
+                               like (color , background, fontsize, border etc).
+
+
+Cascadding
+==========>    When we apply css multiple rule to a HTML element called cascadding
+    
+             exmple-> 
+                         h1{
+                            color:red;
+                            background:pink;
+                            font-size:100px;
+                           }
+
+Style
+-------->      Style means provide color , border etc.
+
+Sheet
+--------->      Where you writes the code inside <html> tag  called the sheet.  
+
+We have 3 way to apply css in HTML page
+===================================>
+
+1)  Internal Css 
+    -------------------
+       >  Internal css means write the css inside html page within <style> tag,
+       >  <style> always will be write inside <haed> tag.
+
+2)  External Css
+     ---------------------
+           > External Css means we will create spreate file where we write the css code
+           >  External Css extension (.css)  , in external file no need to <style> tag
+
+       How to link external file in Html
+       --------------------------------------------->
+        syntex--->   <link rel="stylesheet" href="fileName">
+        example->   <link rel="stylesheet" href="style.css">            
+
+3)   Inline Css    
+     ----------------
+          >  Inline css we can write the css code inside particular tag within style property
+          syntax---> <h1 style="propertyName:value;">Hello</h1> 
+          example-->  <h1 style="color:red;">Hello</h1>
+
+Selectors in Css
+==============>   With the help of selector we can target the HTML element.
+        
+
+1.  Id selector (#)
+-------------------------
+    > In the case of id selector we can create only one id to the html elment 
+    >  id selector denoted by (#) symbole   
+
+                        <div id="t1">welcome</div>
+
+         example-->      #t1{
+                                          color:red;
+                                       }
+
+2.  Class selector (.)
+-------------------------
+    > In the case of class selector we can create multiple class to html elment 
+    >  class selector denoted by (.) symbole   
+
+                      <h1 class="t1">welcome</h1>
+
+         example-->      .t1{
+                                          color:red;
+                                       }
+
+             
+3.  TagName selector (tagName)
+-------------------------
+    > In the case of TagName  selector we will target html elment by tagname.
+    >  TagName selector denoted by (TagName (h1)) symbole  
+
+                <h1>welcome</h1>
+
+         example-->      h1{
+                                          color:red;
+                                       }
+ 
 
 
 
