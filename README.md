@@ -3,12 +3,12 @@ HTML    Notes
 
 heading Tag in HTML
 ====================
-1)<h1>welcome</h1>
-1)<h2>welcome</h2>
-1)<h3>welcome</h3>
-1)<h4>welcome</h4>
-1)<h5>welcome</h5>
-1)<h6>welcome</h6>
+>1)<h1>welcome</h1>
+>1)<h2>welcome</h2>
+>1)<h3>welcome</h3>
+>1)<h4>welcome</h4>
+>1)<h5>welcome</h5>
+>1)<h6>welcome</h6>
 
 
 Table Tage in HTML (v.imp)
