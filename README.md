@@ -1,77 +1,72 @@
-## Front End Notes
-# Html Page
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+HTML    Notes
+============>
 
-## Table of Contents
-* [heading Tag in HTML](#heading-Tag-in-HTML)
-* [Table Tage in HTML](#Table-Tage-in-HTML)
-* [List tag in HTML](#List-tag-in-HTML)
-* [Hyperlink in HTML](#Hyperlink-in-HTML)
-* [Form tag in HTML](#Form-tag-in-HTML)
-* [Block And Inline Element or tag](#Block-And-Inline-Element-or-tag)
-<!-- * [License](#license) -->
+heading Tag in HTML
+====================
+1)<h1>welcome</h1>
+1)<h2>welcome</h2>
+1)<h3>welcome</h3>
+1)<h4>welcome</h4>
+1)<h5>welcome</h5>
+1)<h6>welcome</h6>
 
 
-## heading Tag in HTML
--<h1>welcome</h1>
--<h2>welcome</h2>
--<h3>welcome</h3>
--<h4>welcome</h4>
--<h5>welcome</h5>
--<h6>welcome</h6>
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Table Tage in HTML (v.imp)
+======================
+create table in html with the help of <table> tag
+ <tr>   tag use for the Row 
+ <th>  tag use for the colomn in heading format
+ <td>  tag  also use for normal column
 
+example
+========
+                          <table>
+                               <tr>
+                                 <th>Name</th>
+		                 <th>Course</th>
+		                 <th>Mobile</th>
+                               </tr>  
+		               <tr>
+                                  <td>Vimal</td>
+		                  <td>BCA</td>
+		                 <td>958969699</td>
+                               </tr>         
+                         </table>
 
-## Table Tage in HTML
-- create table in html with the help of <table> tag
-  -<tr>   tag use for the Row 
-  -<th>  tag use for the colomn in heading format
-  -<td>  tag  also use for normal column
+List tag in HTML
+===============>
+<ul>  tag use for unorder list
+<ol>  tag use for order list
+<li>   tag use for list must be inside <ul> or <ol>
 
--example
-     <table>
-           <tr>
-             <th>Name</th>
-		         <th>Course</th>
-		         <th>Mobile</th>
-           </tr>  
-		       <tr>
-             <td>Vimal</td>
-		         <td>BCA</td>
-		         <td>958969699</td>
-           </tr>         
-     </table>
+example
+=======>     unorder list
+	     ------------------
+	         <ul>
+		<li>Apple<li>
+		<li>Banana<li>
+		<li>papaya<li>
+                          </ul>
+ 
+                    orderd list
+	   ---------------                 
+      	        <ol>
+		<li>Apple<li>
+		<li>Banana<li>
+		<li>papaya<li>
+                          </ol>
+ 
+Hyperlink in HTML
+================>
+<a>      tag  use for the craete the hyperlink
+ href=""  inside href you pass the location ,where you want to send 
 
+example
+========>
+                      <a href="home.html">Home</a> 
 
-## List tag in HTML
--<ul>  tag use for unorder list
--<ol>  tag use for order list
--<li>   tag use for list must be inside <ul> or <ol>
--example
-     -unorder list
-	  <ul>
-		  <li>Apple<li>
-		  <li>Banana<li>
-		  <li>papaya<li>
-          </ul>
-  
-    -orderd list	                  
-  	 <ol>
-		  <li>Apple<li>
-		  <li>Banana<li>
-		  <li>papaya<li>
-        </ol>
-
-## Hyperlink in HTML
--<a>tag  use for the craete the hyperlink
--href=""  inside href you pass the location ,where you want to send 
-  -example
-    <a href="home.html">Home</a> 
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Form tag in HTML
+Form tag in HTML  (v.imp)
+=====================>
 1.  create the form with the help of <form> tag
 2.  without form we can not send the data
 
@@ -109,16 +104,16 @@ post()=>
 <input type="submit"> 
 
 
+Block And Inline Element or tag
+==========================>
 
-## Block And Inline Element or tag
-  
--Block Element
+Block Element
 ---------------------->
 1. Block element cover full width and cursor put new line.
 
   example--->   <div>,<h1>,<p> etc
 
--Inline Element
+Inline Element
 ---------------------->
 1. Inline element cover width depend upon our content and cursor in same line.
 2. In inline element we can not apply height , width,.
@@ -130,9 +125,10 @@ post()=>
                               >   display:block;
 
   example--->   <span>,<a>,<input> etc
+  
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+
+
+
+
