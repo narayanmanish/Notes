@@ -35,9 +35,9 @@ example
 
 List tag in HTML
 ===============>
-<ul>  tag use for unorder list
-<ol>  tag use for order list
-<li>   tag use for list must be inside <ul> or <ol>
+><ul>  tag use for unorder list
+><ol>  tag use for order list
+><li>   tag use for list must be inside <ul> or <ol>
 
 example
 =======>     unorder list
