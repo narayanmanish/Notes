@@ -56,14 +56,14 @@
 		  <li>Apple<li>
 		  <li>Banana<li>
 		  <li>papaya<li>
-    </ul>
+          </ul>
   
     -orderd list	                  
   	 <ol>
 		  <li>Apple<li>
 		  <li>Banana<li>
 		  <li>papaya<li>
-     </ol>
+        </ol>
 
 ## Hyperlink in HTML
 -<a>tag  use for the craete the hyperlink
